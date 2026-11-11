@@ -1,0 +1,6 @@
+{
+  "name": "Cognitio Studio",
+  "description": "Plataforma inteligente de aprendizagem com IA: simulados adaptativos, flashcards com repetição espaçada, tutor explicativo e recomendações diagnósticas de estudo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

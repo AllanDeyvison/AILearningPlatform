@@ -1,0 +1,230 @@
+---
+name: Cognitio Studio
+colors:
+  surface: '#0f131d'
+  surface-dim: '#0f131d'
+  surface-bright: '#353944'
+  surface-container-lowest: '#0a0e18'
+  surface-container-low: '#171b26'
+  surface-container: '#1c1f2a'
+  surface-container-high: '#262a35'
+  surface-container-highest: '#313540'
+  on-surface: '#dfe2f1'
+  on-surface-variant: '#c7c4d7'
+  inverse-surface: '#dfe2f1'
+  inverse-on-surface: '#2c303b'
+  outline: '#908fa0'
+  outline-variant: '#464554'
+  surface-tint: '#c0c1ff'
+  primary: '#c0c1ff'
+  on-primary: '#1000a9'
+  primary-container: '#8083ff'
+  on-primary-container: '#0d0096'
+  inverse-primary: '#494bd6'
+  secondary: '#d0bcff'
+  on-secondary: '#3c0091'
+  secondary-container: '#571bc1'
+  on-secondary-container: '#c4abff'
+  tertiary: '#4edea3'
+  on-tertiary: '#003824'
+  tertiary-container: '#00885d'
+  on-tertiary-container: '#000703'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#e1e0ff'
+  primary-fixed-dim: '#c0c1ff'
+  on-primary-fixed: '#07006c'
+  on-primary-fixed-variant: '#2f2ebe'
+  secondary-fixed: '#e9ddff'
+  secondary-fixed-dim: '#d0bcff'
+  on-secondary-fixed: '#23005c'
+  on-secondary-fixed-variant: '#5516be'
+  tertiary-fixed: '#6ffbbe'
+  tertiary-fixed-dim: '#4edea3'
+  on-tertiary-fixed: '#002113'
+  on-tertiary-fixed-variant: '#005236'
+  background: '#0f131d'
+  on-background: '#dfe2f1'
+  surface-variant: '#313540'
+typography:
+  display-hero:
+    fontFamily: Geist
+    fontSize: 3.5rem
+    fontWeight: '600'
+    lineHeight: 4rem
+    letterSpacing: -0.03em
+  display-hero-mobile:
+    fontFamily: Geist
+    fontSize: 2.25rem
+    fontWeight: '600'
+    lineHeight: 2.75rem
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Geist
+    fontSize: 2rem
+    fontWeight: '600'
+    lineHeight: 2.5rem
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Geist
+    fontSize: 1.5rem
+    fontWeight: '600'
+    lineHeight: 2rem
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Geist
+    fontSize: 1.25rem
+    fontWeight: '500'
+    lineHeight: 1.75rem
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Geist
+    fontSize: 1rem
+    fontWeight: '500'
+    lineHeight: 1.5rem
+    letterSpacing: '0'
+  body-lg:
+    fontFamily: Geist
+    fontSize: 1.125rem
+    fontWeight: '400'
+    lineHeight: 1.75rem
+    letterSpacing: -0.01em
+  body-md:
+    fontFamily: Geist
+    fontSize: 0.9375rem
+    fontWeight: '400'
+    lineHeight: 1.5rem
+    letterSpacing: '0'
+  body-sm:
+    fontFamily: Geist
+    fontSize: 0.8125rem
+    fontWeight: '400'
+    lineHeight: 1.25rem
+    letterSpacing: '0'
+  label-md:
+    fontFamily: JetBrains Mono
+    fontSize: 0.8125rem
+    fontWeight: '500'
+    lineHeight: 1rem
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: JetBrains Mono
+    fontSize: 0.6875rem
+    fontWeight: '500'
+    lineHeight: 0.875rem
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 2rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+The design system embodies a high-performance, distraction-free educational environment engineered for deep cognitive flow. Melding the crisp, utilitarian density of developer utilities with the calm, structured clarity of modern workspace applications, the aesthetic prioritizes information hierarchy and rapid feedback.
+
+### Emotional Response & Target Audience
+- **Target Audience:** Driven learners, higher-education researchers, engineers, and technical professionals who require rigorous, distraction-free knowledge acquisition.
+- **Emotional Signature:** Hyper-focused, intellectual, capable, and serene. It eliminates visual noise while providing immediate dopamine triggers upon active recall validation and milestone mastery.
+
+### Design Movement: Technical Minimalism with Tactile Micro-Surfaces
+The aesthetic leverages deep obsidian and slate foundations, contrasted with hairline micro-borders, razor-sharp status indicators, and luminous vector accents. Visual structure takes precedence over heavy ornamentation, delivering an interface that feels like an advanced command center for learning.
+
+## Colors
+
+The palette operates in a default dark color mode optimized for sustained, eye-fatigue-free screen time. It is structured around an atmospheric slate gradient and punctuated by high-contrast semantic accents.
+
+### Palette Architecture
+- **Primary Canvas (`#0B0F19`):** Pitch-slate void serving as the base canvas, isolating UI elements and reducing ocular fatigue.
+- **Surface Layer 1 (`#111827`):** Recessed canvas base for secondary panels, sidebar backdrops, and navigation panels.
+- **Surface Layer 2 (`#1E293B`):** Raised interactive containers, test cards, active editor regions, and floating modals.
+- **Surface Micro-Borders (`rgba(255, 255, 255, 0.08)`): Crisp, semi-transparent hairline delineators defining spatial boundaries.
+- **Primary & Secondary Accents (`#6366F1` & `#8B5CF6`):** Vibrant electric indigo and violet reserved for primary calls to action, active navigation states, AI generation states, and focal progress indicators.
+- **Semantic Accents:**
+  - **Success / Correct Recall (`#10B981`):** Electric emerald for validation checkmarks, streak counts, and correct quiz options.
+  - **Warning (`#F59E0B`):** Vibrant amber for hints, review schedules, and pacing nudges.
+  - **Danger / Incorrect (`#F43F5E`):** Vivid rose for errors, critical alerts, and incorrect flashcard answers.
+
+## Typography
+
+The typographic hierarchy prioritizes legibility, scannability, and structural precision. 
+
+- **Primary Headings & Body:** Driven by *Geist*, utilizing tight tracking on large display scales to project an engineered, refined tone. The body text leverages generous vertical spacing to maintain effortless reading stamina during long study sessions.
+- **Data, Stats & System Signals:** Handled by *JetBrains Mono* for flashcard counters, difficulty markers, shortcuts, and AI code/formula generation, instilling a sense of technical authority.
+
+## Layout & Spacing
+
+The layout is built on a 12-column adaptive fluid grid engineered for high-density workflow efficiency, with designated safe zones for persistent context navigation (sidebars, session timers, and prompt inspectors).
+
+### Spatial Model & Responsive Scaling
+- **Desktop (1280px+):** 12-column dynamic grid with a maximum content container width of 1440px. Gutters are locked at `1.5rem`, while outer canvas margins scale fluidly from `2rem` upward.
+- **Tablet (768px - 1279px):** 8-column layout. Workspace panels become collapsible into off-canvas drawers or bottom trays. Outer margins adjust to `1.5rem`.
+- **Mobile (< 768px):** 4-column layout with `1rem` margins and gutters. Toolbars collapse into bottom command ribbons, ensuring core interactions remain thumb-accessible during quiz runs.
+- **Rhythm:** Spacing follows a 4px/8px modular scale. Spacing tokens strictly resolve outer separation and internal padding; container widths remain dictated by fluid layout logic.
+
+## Elevation & Depth
+
+Visual hierarchy does not rely on heavy, blurred dropshadows. Instead, depth is articulated through **tonal stacking paired with low-contrast micro-borders** and subtle luminous underglows.
+
+### Structural Depth Tiers
+- **Tier 0 (Base Canvas - `#0B0F19`):** Root background hosting structural layouts.
+- **Tier 1 (Recessed/Divided - `#111827`):** Left navigation trees, quiz question rails, and secondary dashboards. Delineated by a `1px` border of `rgba(255, 255, 255, 0.06)`.
+- **Tier 2 (Interactive Floating Cards - `#1E293B`):** Question surfaces, flashcards, and input workspaces. Delineated by a `1px` border of `rgba(255, 255, 255, 0.1)`. These cards use an ambient shadow: `0 4px 20px -2px rgba(0, 0, 0, 0.5)`.
+- **Tier 3 (Floating Command Surfaces & Modals):** Command palettes (Cmd+K), AI prompt drawers, and context menus. Built using `#1E293B` backed by a 16px blur (`backdrop-filter: blur(16px)` at 85% opacity) and bordered with `rgba(99, 102, 241, 0.25)`. A localized, subtle accent bloom (`box-shadow: 0 0 32px rgba(99, 102, 241, 0.1)`) signals active AI orchestration.
+
+## Shapes
+
+The design system employs a **Soft (`1`)** shape language to uphold a crisp, engineered personality while avoiding stark, harsh edges.
+
+### Corner Radius System
+- **Base Components (Inputs, Buttons, Keycaps):** Standardized at `0.25rem` (4px) to retain an intentional, high-precision geometry.
+- **Cards & Quiz Containers (`rounded-lg`):** Scaled to `0.5rem` (8px), softening high-density informational blocks without drifting into playful or consumer-casual territory.
+- **Modal Windows & Main Dashboards (`rounded-xl`):** Scaled to `0.75rem` (12px), defining clear window envelopes.
+- **Badges, Status Tags & Key Caps:** Rendered as full pills (`9999px`) or ultra-compact soft squares (`4px`) depending on informational priority.
+
+## Components
+
+### Buttons
+- **Primary:** Solid `#6366F1` background, `#FFFFFF` text, 4px border radius. On hover, shifts to `#4F46E5` with a subtle `0 0 12px rgba(99, 102, 241, 0.4)` glow.
+- **Secondary / Ghost:** Transparent background with a `1px` border of `rgba(255, 255, 255, 0.12)`, text in `#E2E8F0`. On hover, the background transitions to `rgba(255, 255, 255, 0.04)`.
+- **Destructive:** `rgba(244, 63, 94, 0.1)` surface with a `1px` border of `rgba(244, 63, 94, 0.3)` and `#F43F5E` text.
+
+### Interactive Flashcards & Quiz Containers
+- **Base State:** Card container filled with `#1E293B`, framed with a `1px` border of `rgba(255, 255, 255, 0.08)`.
+- **Selected State:** Border color shifts to `#6366F1`, supported by an inner highlight ring of `0 0 0 1px #6366F1`.
+- **Success / Validated State:** Border shifts to `#10B981`, with a subtle background tint of `rgba(16, 185, 129, 0.05)` for instant visual reinforcement.
+- **Failure / Incorrect State:** Border shifts to `#F43F5E`, coupled with a soft background tint of `rgba(244, 63, 94, 0.05)`.
+
+### Chips & Badges
+- **Status Pills:** Compact vertical padding (`0.125rem 0.5rem`), font set to `label-sm` (`JetBrains Mono`).
+- **Variants:**
+  - *AI Insight:* `#8B5CF6` text over `rgba(139, 92, 246, 0.1)` with a `1px` border of `rgba(139, 92, 246, 0.25)`.
+  - *Accuracy Metric:* `#10B981` text over `rgba(16, 185, 129, 0.1)` with a `1px` border of `rgba(16, 185, 129, 0.25)`.
+
+### Input Fields
+- Dark slate surface (`#111827`) enclosed by a `1px` outline of `rgba(255, 255, 255, 0.1)`.
+- Active focus triggers a border transition to `#6366F1` alongside a crisp `0 0 0 1px #6366F1` halo. Placeholder text is kept at a muted slate-gray (`#64748B`).
+
+### Checkboxes & Option Selectors
+- Squircle profiles with a `4px` corner radius.
+- Unchecked: Inset border of `1.5px` using `rgba(255, 255, 255, 0.2)` on an uncolored background.
+- Checked: Solid `#6366F1` fill carrying a sharp white vector checkmark.
+
+### AI Simulation & Feedback Rail
+- Embedded prompt bar featuring an active, hairline violet-to-indigo gradient border.
+- Integrated keyboard shortcut tooltips (`Kbd`) rendered with dark `#0B0F19` tiles, micro-borders (`rgba(255, 255, 255, 0.15)`), and `JetBrains Mono` typography.
